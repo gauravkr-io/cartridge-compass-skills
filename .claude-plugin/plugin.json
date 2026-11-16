@@ -1,0 +1,9 @@
+{
+  "name": "compass-skills",
+  "version": "1.0.2",
+  "description": "Agent skills for Salesforce B2C Commerce (SFCC): orient in a workspace, find what runs per site, measure change impact, change code safely, handle legacy and multi-repository projects, verify platform APIs, review changes and protect instances.",
+  "author": {
+    "name": "Cartridge Compass"
+  },
+  "keywords": ["sfcc", "salesforce-commerce-cloud", "b2c-commerce", "sfra", "sitegenesis", "scapi"]
+}

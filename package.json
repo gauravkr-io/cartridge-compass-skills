@@ -1,0 +1,36 @@
+{
+  "name": "cartridge-compass-skills",
+  "version": "1.0.2",
+  "description": "Agent skills for Salesforce B2C Commerce (SFCC) development. Work in Claude Code, Cursor, GitHub Copilot, Codex and other agents that read the Agent Skills format.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "check": "npm run build && npm run validate && npm test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravkr-io/cartridge-compass-skills.git"
+  },
+  "homepage": "https://github.com/gauravkr-io/cartridge-compass-skills#readme",
+  "bugs": {
+    "url": "https://github.com/gauravkr-io/cartridge-compass-skills/issues"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "keywords": [
+    "sfcc",
+    "salesforce-commerce-cloud",
+    "b2c-commerce",
+    "sfra",
+    "sitegenesis",
+    "agent-skills",
+    "claude-code",
+    "cursor",
+    "github-copilot"
+  ]
+}

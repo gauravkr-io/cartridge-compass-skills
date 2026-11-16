@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Cartridge Compass Skills: understand your SFCC project before coding">
+<title>Cartridge Compass Skills</title>
+<rect width="1280" height="640" fill="#0f172a"/>
+<g stroke="#1e293b" stroke-width="2" fill="none">
+<circle cx="1000" cy="320" r="150"/><circle cx="1000" cy="320" r="230"/><circle cx="1000" cy="320" r="310"/>
+</g>
+<g transform="translate(840 160) scale(2.667)">
+<g fill="none" stroke="#2dd4bf" stroke-width="6" stroke-linecap="round">
+  <circle cx="60" cy="60" r="48"/>
+  <path d="M60 4v10M60 106v10M4 60h10M106 60h10"/>
+</g>
+<path d="M60 22 72 60 60 54 48 60Z" fill="#f59e0b"/>
+<path d="M60 98 48 60 60 66 72 60Z" fill="#e2e8f0"/>
+<circle cx="60" cy="60" r="4" fill="#2dd4bf"/>
+</g>
+<g font-family="system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="80" y="250" font-size="72" font-weight="700" fill="#ffffff">Cartridge Compass</text>
+<text x="80" y="320" font-size="40" font-weight="600" fill="#2dd4bf">Skills for SFCC projects</text>
+<text x="80" y="400" font-size="30" fill="#cbd5e1">Understand your project before coding.</text>
+<text x="80" y="450" font-size="24" fill="#94a3b8">Which code runs, on which site, and what a change reaches.</text>
+<text x="80" y="560" font-size="22" fill="#64748b">Claude Code  ·  Cursor  ·  GitHub Copilot  ·  Codex</text>
+</g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 220" width="1000" height="220" role="img" aria-label="Quick start: clone, install, configure, start coding">
+<title>Quick start</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#475569"/></marker></defs>
+<rect width="1000" height="220" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+<g font-family="system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif" text-anchor="middle">
+<g stroke="#475569" stroke-width="2" marker-end="url(#a)"><path d="M232 110h36"/><path d="M472 110h36"/><path d="M712 110h36"/></g>
+<g fill="#ffffff" stroke="#0f766e" stroke-width="2">
+<rect x="30" y="50" width="200" height="120" rx="10"/><rect x="270" y="50" width="200" height="120" rx="10"/><rect x="510" y="50" width="200" height="120" rx="10"/><rect x="750" y="50" width="220" height="120" rx="10"/></g>
+<g fill="#0f766e" font-size="26" font-weight="700"><text x="130" y="88">1</text><text x="370" y="88">2</text><text x="610" y="88">3</text><text x="860" y="88">4</text></g>
+<g fill="#0f172a" font-size="17" font-weight="700"><text x="130" y="116">Clone</text><text x="370" y="116">Install</text><text x="610" y="116">Configure</text><text x="860" y="116">Start coding</text></g>
+<g fill="#475569" font-size="13" font-family="ui-monospace,Menlo,Consolas,monospace">
+<text x="130" y="142">git clone</text>
+<text x="370" y="142">install.mjs --agent</text>
+<text x="610" y="142">compass.sites.json</text>
+<text x="860" y="142" font-family="system-ui,sans-serif">"Orient yourself"</text></g>
+<text x="610" y="160" fill="#64748b" font-size="12" font-family="system-ui,sans-serif">optional</text>
+</g>
+</svg>

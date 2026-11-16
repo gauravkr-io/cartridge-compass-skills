@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440" role="img" aria-label="Two sites with different cartridge paths resolve Cart-Show to different controllers">
+<title>Cartridge resolution for Cart-Show</title>
+<rect width="1000" height="440" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+<g font-family="system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+<text x="500" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Same route, Cart-Show, different winner per site</text>
+<text x="250" y="85" text-anchor="middle" font-size="17" font-weight="700" fill="#0f766e">Shop_US</text>
+<text x="750" y="85" text-anchor="middle" font-size="17" font-weight="700" fill="#b45309">Shop_DE</text>
+<line x1="500" y1="65" x2="500" y2="395" stroke="#cbd5e1" stroke-dasharray="6 6"/>
+<g font-size="15" text-anchor="middle">
+<!-- US -->
+<rect x="90" y="105" width="320" height="60" rx="8" fill="#ccfbf1" stroke="#0f766e" stroke-width="2"/>
+<text x="250" y="130" font-weight="700" fill="#0f172a">app_brand_a</text><text x="250" y="150" fill="#334155">Cart.js prepends Cart-Show</text>
+<rect x="90" y="185" width="320" height="60" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="250" y="210" font-weight="700" fill="#0f172a">app_brand_core</text><text x="250" y="230" fill="#334155">Cart.js appends Cart-Show</text>
+<rect x="90" y="265" width="320" height="60" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+<text x="250" y="290" font-weight="700" fill="#0f172a">app_storefront_base</text><text x="250" y="310" fill="#334155">Cart.js defines Cart-Show</text>
+<text x="250" y="360" fill="#0f766e" font-weight="700">Chain runs top to bottom</text>
+<!-- DE -->
+<rect x="590" y="105" width="320" height="60" rx="8" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+<text x="750" y="130" font-weight="700" fill="#0f172a">app_brand_b</text><text x="750" y="150" fill="#334155">Cart.js without Cart-Show</text>
+<g stroke-dasharray="5 4">
+<rect x="590" y="185" width="320" height="60" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+<rect x="590" y="265" width="320" height="60" rx="8" fill="#f8fafc" stroke="#cbd5e1"/></g>
+<text x="750" y="210" font-weight="700" fill="#94a3b8">app_brand_core</text><text x="750" y="230" fill="#94a3b8">shadowed, never reached</text>
+<text x="750" y="290" font-weight="700" fill="#94a3b8">app_storefront_base</text><text x="750" y="310" fill="#94a3b8">shadowed, never reached</text>
+<text x="750" y="360" fill="#b45309" font-weight="700">Route fails at runtime</text>
+</g>
+<text x="500" y="418" text-anchor="middle" font-size="14" fill="#64748b">The leftmost cartridge that has Cart.js hides every lower copy on that site</text>
+</g>
+</svg>

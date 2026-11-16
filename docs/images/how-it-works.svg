@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 300" width="1100" height="300" role="img" aria-label="Flow from repositories through discovery, detection and resolution to agent context">
+<title>How Cartridge Compass works</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#475569"/></marker></defs>
+<rect width="1100" height="300" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
+<g font-family="system-ui,-apple-system,Segoe UI,Helvetica,Arial,sans-serif" text-anchor="middle">
+<g stroke="#475569" stroke-width="2" marker-end="url(#a)">
+<path d="M200 150h40"/><path d="M410 150h40"/><path d="M620 150h40"/><path d="M830 150h40"/>
+</g>
+<g fill="#ffffff" stroke="#0f766e" stroke-width="2">
+<rect x="30" y="85" width="170" height="130" rx="10"/><rect x="240" y="85" width="170" height="130" rx="10"/><rect x="450" y="85" width="170" height="130" rx="10"/><rect x="660" y="85" width="170" height="130" rx="10"/>
+</g>
+<rect x="870" y="85" width="200" height="130" rx="10" fill="#0f766e"/>
+<g fill="#0f172a" font-size="17" font-weight="700">
+<text x="115" y="125">Repositories</text><text x="325" y="125">Project discovery</text><text x="535" y="125">Architecture detection</text><text x="745" y="125">Cartridge resolution</text>
+</g>
+<g fill="#475569" font-size="14">
+<text x="115" y="155">one or many</text><text x="115" y="176">cartridges, sites,</text><text x="115" y="197">headless apps</text>
+<text x="325" y="155">cartridges, site.xml,</text><text x="325" y="176">compass.sites.json,</text><text x="325" y="197">routes, hooks</text>
+<text x="535" y="155">SFRA, SiteGenesis,</text><text x="535" y="176">SCAPI, PWA Kit,</text><text x="535" y="197">with confidence</text>
+<text x="745" y="155">winning file per</text><text x="745" y="176">site, shadowed</text><text x="745" y="197">copies, impact</text>
+</g>
+<g fill="#ffffff"><text x="970" y="125" font-size="17" font-weight="700">AI agent context</text>
+<text x="970" y="155" font-size="14">facts with gaps</text><text x="970" y="176" font-size="14">marked unknown</text><text x="970" y="197" font-size="14">before any edit</text></g>
+<text x="550" y="40" font-size="20" font-weight="700" fill="#0f172a">Read-only script, no network, no instance access</text>
+<text x="550" y="270" font-size="14" fill="#64748b">Everything runs locally against source files</text>
+</g>
+</svg>

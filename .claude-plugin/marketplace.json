@@ -1,0 +1,13 @@
+{
+  "name": "cartridge-compass-skills",
+  "owner": {
+    "name": "Cartridge Compass"
+  },
+  "plugins": [
+    {
+      "name": "compass-skills",
+      "source": "./",
+      "description": "Agent skills for Salesforce B2C Commerce (SFCC) development."
+    }
+  ]
+}
