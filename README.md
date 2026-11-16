@@ -15,6 +15,8 @@ AI coding agents know SFCC in general. They do not know which copy of `Cart.js` 
 
 They complement Salesforce's official [B2C Developer Tooling](https://github.com/SalesforceCommerceCloud/b2c-developer-tooling). The official skills teach the platform and trace one cartridge path. These skills cover many sites at once, several repositories, change impact and legacy code.
 
+![Cartridge Compass Skills overview: project intelligence for AI coding agents working on Salesforce B2C Commerce](assets/images/overview.png)
+
 ## How it works
 
 ![Repositories flow through discovery, architecture detection and cartridge resolution into agent context](docs/images/how-it-works.svg)
